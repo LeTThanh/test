@@ -1,0 +1,21 @@
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea/
+rebel.xml
+
+target/
+spring-cloud-data-flow2
+data-flow-server.jar
+uaa.war
+
+*.DS_Store
+
+.settings
+.project
+.classpath
+
+.terraform
+.terraform.lock.hcl
+terraform.tfstate*

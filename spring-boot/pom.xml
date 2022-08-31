@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pkslow-samples</artifactId>
+        <groupId>com.pkslow</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-common</module>
+        <module>spring-data-jpa-audit</module>
+        <module>spring-security-jwt</module>
+        <module>spring-security-jwt-webflux</module>
+        <module>spring-data-cassandra</module>
+        <module>springboot-influxdb</module>
+        <module>spring-data-jpa-db2</module>
+        <module>springboot-jms-solace</module>
+        <module>springboot-ssl</module>
+        <module>springboot-ssl-tomcat</module>
+    </modules>
+
+
+</project>
